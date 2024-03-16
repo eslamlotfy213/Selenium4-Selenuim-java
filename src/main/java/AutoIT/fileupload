@@ -1,0 +1,36 @@
+what is auto it
+install auto it
+auto scripting
+integration auto it with selenim
+shif focus to the file upload
+set text/path into file name edit box
+click open to uplaod file
+build the script
+
+ // what is auto it enable to upload files
+    //install auto it  from https://www.autoitscript.com/site/autoit/downloads/
+    //
+open > fileupload.au3
+edit the content on "fileupload.au3"
+edit the path of file
+save it
+compile 64
+now fileupload.exe is generated
+add the fileupload.exe on the         Runtime.getRuntime().exec("D:\\Selenium4\\Selenuim-java\\src\\main\\java\\AutoIT\\fileupload.exe");
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+chrome driver options to configure download path of browser
+/*
+  String downloadPath=System.getProperty("user.dir");
+        HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+        chromePrefs.put("profile.default_content_settings.popups", 0);
+        chromePrefs.put("download.default_directory", downloadPath);
+        ChromeOptions options=new ChromeOptions();
+        options.setExperimentalOption("prefs", chromePrefs);
+
+
+
+*/
+
+
