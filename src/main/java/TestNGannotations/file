@@ -1,0 +1,45 @@
+BeforeSuite
+    BeforeTest
+        BeforeClass
+            BeforeMethod
+                   @Test method
+            AfterMethod
+        AfterClass
+    AfterTest
+AfterSuite
+
+
+---------------------------beforemethod--------------------------------------------------------------------------------
+
+   beforemethod
+   aftermethod
+   @Testmethod >  testmethod1
+   @Testmethod >  testmethod2
+
+it will run b3d kol @testmethod 3andk
+
+ BeforeMethod
+  Test method 1
+ AfterMethod
+
+ BeforeMethod
+  Test method 2
+ AfterMethod
+
+e3mel run mn bara keda
+
+---------------------------beforetest--------------------------------------------------------------------------------
+it will run once
+before ay test ell mawgodda fe  xml file <test>
+   <test name="SelenuimGrid_chrome" >
+
+    </test>
+
+ @BeforeTest
+    Test method 1
+    Test method 2
+ @AfterTest
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
